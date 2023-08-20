@@ -135,12 +135,12 @@ namespace HttpServer.Controllers
                         }
                         return Global.config.UseLocalCache ? new string[]
                         {
-                            $"https://{Global.config.Gameserver.Host}/asset_bundle/android01/1.0",
-                            $"https://{Global.config.Gameserver.Host}/asset_bundle/android01/1.0"
+                            $"https://{Global.config.Gameserver.Host}/asset_bundle/android01/1.1",
+                            $"https://{Global.config.Gameserver.Host}/asset_bundle/android01/1.1"
                         } : new string[]
                         {
-                            "https://bundle-qcloud.bh3.com/asset_bundle/android01/1.0",
-                            "https://bundle.bh3.com/asset_bundle/android01/1.0"
+                            "https://bundle-qcloud.bh3.com/asset_bundle/android01/1.1",
+                            "https://bundle.bh3.com/asset_bundle/android01/1.1"
                         };
                     case "global":
                         return Global.config.UseLocalCache ? new string[]
